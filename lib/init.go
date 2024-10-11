@@ -28,5 +28,5 @@ func (acc RyzenAccess) Cleanup() {
 }
 
 func (acc RyzenAccess) Refresh() error {
-	return RyzenAdjErr(C.refresh_table(acc.access))
+	return NewRyzenAdjErr(C.refresh_table(acc.access))
 }

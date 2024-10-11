@@ -18,6 +18,6 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-	fmt.Printf("CPU Family: %s", ry.GetCpuFamily())
-	fmt.Printf("SMU BIOS Interface Version: %d", ry.GetBiosIfVer())
+	fmt.Printf("CPU Family: %s\n", ry.GetCpuFamily())
+	fmt.Printf("SMU BIOS Interface Version: %d\n", ry.GetBiosIfVer())
 }

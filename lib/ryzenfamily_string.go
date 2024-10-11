@@ -9,25 +9,25 @@ func _() {
 	// Re-run the stringer command to generate them again.
 	var x [1]struct{}
 	_ = x[WAIT_FOR_LOAD - -2]
-	_ = x[FAM_UNKNOWN - -1]
-	_ = x[FAM_RAVEN-0]
-	_ = x[FAM_PICASSO-1]
-	_ = x[FAM_RENOIR-2]
-	_ = x[FAM_CEZANNE-3]
-	_ = x[FAM_DALI-4]
-	_ = x[FAM_LUCIENNE-5]
-	_ = x[FAM_VANGOGH-6]
-	_ = x[FAM_REMBRANDT-7]
-	_ = x[FAM_MENDOCINO-8]
-	_ = x[FAM_PHOENIX-9]
-	_ = x[FAM_HAWKPOINT-10]
-	_ = x[FAM_STRIXPOINT-11]
-	_ = x[FAM_END-12]
+	_ = x[UNKNOWN - -1]
+	_ = x[RAVEN-0]
+	_ = x[PICASSO-1]
+	_ = x[RENOIR-2]
+	_ = x[CEZANNE-3]
+	_ = x[DALI-4]
+	_ = x[LUCIENNE-5]
+	_ = x[VANGOGH-6]
+	_ = x[REMBRANDT-7]
+	_ = x[MENDOCINO-8]
+	_ = x[PHOENIX-9]
+	_ = x[HAWKPOINT-10]
+	_ = x[STRIXPOINT-11]
+	_ = x[END-12]
 }
 
-const _RyzenFamily_name = "WAIT_FOR_LOADFAM_UNKNOWNFAM_RAVENFAM_PICASSOFAM_RENOIRFAM_CEZANNEFAM_DALIFAM_LUCIENNEFAM_VANGOGHFAM_REMBRANDTFAM_MENDOCINOFAM_PHOENIXFAM_HAWKPOINTFAM_STRIXPOINTFAM_END"
+const _RyzenFamily_name = "WAIT_FOR_LOADUNKNOWNRAVENPICASSORENOIRCEZANNEDALILUCIENNEVANGOGHREMBRANDTMENDOCINOPHOENIXHAWKPOINTSTRIXPOINTEND"
 
-var _RyzenFamily_index = [...]uint8{0, 13, 24, 33, 44, 54, 65, 73, 85, 96, 109, 122, 133, 146, 160, 167}
+var _RyzenFamily_index = [...]uint8{0, 13, 20, 25, 32, 38, 45, 49, 57, 64, 73, 82, 89, 98, 108, 111}
 
 func (i RyzenFamily) String() string {
 	i -= -2
